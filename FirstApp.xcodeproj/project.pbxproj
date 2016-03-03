@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300449631C8867960040F3D1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300449621C8867960040F3D1 /* FirstViewController.m */; };
 		73D453D51C2AA29000E1439A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D453D41C2AA29000E1439A /* main.m */; };
 		73D453D81C2AA29000E1439A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D453D71C2AA29000E1439A /* AppDelegate.m */; };
 		73D453DB1C2AA29000E1439A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D453DA1C2AA29000E1439A /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300449611C8867960040F3D1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		300449621C8867960040F3D1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		73D453D01C2AA29000E1439A /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D453D41C2AA29000E1439A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73D453D61C2AA29000E1439A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				73D453D71C2AA29000E1439A /* AppDelegate.m */,
 				73D453D91C2AA29000E1439A /* ViewController.h */,
 				73D453DA1C2AA29000E1439A /* ViewController.m */,
+				300449611C8867960040F3D1 /* FirstViewController.h */,
+				300449621C8867960040F3D1 /* FirstViewController.m */,
 				73D453DC1C2AA29000E1439A /* Main.storyboard */,
 				73D453DF1C2AA29000E1439A /* Assets.xcassets */,
 				73D453E11C2AA29000E1439A /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				73D453DB1C2AA29000E1439A /* ViewController.m in Sources */,
 				73D453D81C2AA29000E1439A /* AppDelegate.m in Sources */,
 				73D453D51C2AA29000E1439A /* main.m in Sources */,
+				300449631C8867960040F3D1 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 				73D453E91C2AA29000E1439A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

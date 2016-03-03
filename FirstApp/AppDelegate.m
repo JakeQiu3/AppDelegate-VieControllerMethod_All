@@ -7,24 +7,23 @@
 //
 
 #import "AppDelegate.h"
-//#import "ViewController.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
+#warning 少：含有导航控制器的应用后，根视图：0，3，然后是rootViewController。 不含导航的是0，rootViewController的1，2，再3（应用已经获得焦点）。
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-////纯代码版
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    ViewController *viewCon = [[ViewController alloc]init];
-//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewCon];
-//    self.window.rootViewController = nav;
-//    [self.window makeKeyAndVisible];
-    // Override point for customization after application launch.
-     NSLog(@"程序已经启动...");
+///纯代码版
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ViewController *viewCon = [[ViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewCon];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+     NSLog(@"0程序已经启动...");
     return YES;
 }
 
@@ -47,7 +46,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    NSLog(@"应用已经获得焦点。。。");
+    NSLog(@"3.应用已经获得焦点。。。");
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

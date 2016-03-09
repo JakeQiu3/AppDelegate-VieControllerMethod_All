@@ -16,7 +16,7 @@
 //出栈：FirstViewController的viewWillDisappear:(BOOL)animated -》ViewController的viewWillAppear:(BOOL)animated -》FirstViewController的viewDidDisappear:(BOOL)animated-》ViewController的viewDidAppear:(BOOL)animated.
 
 //模态（以后者为主）入：FirstViewController的viewDidLoad-》viewWillDisappear:(BOOL)animated-》FirstViewController的viewWillAppear:(BOOL)animated-》FirstViewController的viewDidAppear:(BOOL)animated-》ViewController的viewDidDisappear:(BOOL)animated
-//模态入：viewWillDisappear:(BOOL)animated-》ViewController的viewWillAppear:(BOOL)animated-》ViewController的viewDidAppear:(BOOL)animated-》FirstViewController的viewDidDisappear:(BOOL)animated
+//模态出：viewWillDisappear:(BOOL)animated-》ViewController的viewWillAppear:(BOOL)animated-》ViewController的viewDidAppear:(BOOL)animated-》FirstViewController的viewDidDisappear:(BOOL)animated
 
 //window的rootViewController 同入栈
 @implementation ViewController
